@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="/js/main.js"></script>
+</head>
+<body>
+<header id="header" class="header">
+    <div class="bg"></div>
+    <div class="container">
+        <div class="nav">
+            <img src="img/navlogo.svg" class="navlogo" alt="logo">
+            <ul class="menu">
+                <li>
+                    <a href="#">Главная</a>
+                </li>
+                <li>
+                    <a href="#about" >Обо мне</a>
+                </li>
+                <li>
+                    <a href="#projects">Проекты</a>
+                </li>
+                <li>
+                    <a href="#footer">Связь</a>
+                </li>
+            </ul>
+        </div>
+        <div class="me">
+                <img src="img/mephoto.png" alt="me1" class="mephoto">
+            <div class="metext">
+                <h2 class="headabout">Программист-инженер в одном человеке</h2>
+                <h1 class="title">Ремизов Александр</h1>
+                <p class="desc">Напишу программу или отремонтирую электронику
+                    <br>быстро и качественно</br>
+                </p>
+                <a href="#footer" class="contact-links">Связь</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="about" class="about">
+    <div class="container">
+        <h1 class="title">Обо мне</h1>
+        <div class="aboutbox">
+            <img src="img/myfp.jpg" class="aboutimg" id="fph">
+            <div class="abouttext-l">
+                <h2 class="abouttitle">Детство и школа</h2>
+                <p class="pabout">Меня зовут Александр, для семьи и друзей Саня. Добрый и отзывчивый парень. В своем детстве воспитывался в строгости. Три раза менял школу. Первый класс не особо запомнился. Средняя и старшая школы были классными.</p>
+                <p class="pabout">Как и большинство парней, я был непослушным и неусидчивым, тогда и познакомился со своими друзьями. Однажды даже дверь с петель сняли), правда меня наказали, ну с кем не бывает. В восьмом классе радовался тройке по геометрии за год. В старшей школе понял, что мне очень нравится программировать, чем и занимаюсь по сей день.</p>
+            </div>
+        </div>
+        <div id="reversebox" class="aboutbox">
+            <div class="abouttext-r">
+                <h2 class="abouttitle">Личность</h2>
+                <p class="pabout">Так как меня воспитывали строго, я очень принципиальный и  добрый человек. Всегда смотрю на мир с улыбкой и не обижаюсь на людей. Также, люблю шутки и подколы в свой адрес. Главное, чтобы были смешными!</p>
+                <p class="pabout">В старшей школе начал читать очень много книг, пока не подобрал любимый жанр - фентези. Любимый цикл - архив буресвета. Также, я сова, и активность мозга пробуждается только к ночи, а еще очень люблю поспать (ﾉ*･ω･)ﾉ. </p>
+            </div>
+            <img src="img/mysp.jpg" class="aboutimg" id="sph">
+        </div>
+        <div class="aboutbox">
+            <img src="img/mytp.jpg" class="aboutimg" id="tph">
+            <div class="abouttext-l">
+                <h2 class="abouttitle">Как я докатился до такой жизни...</h2>
+                <p class="pabout">В настоящее время могу назвать себя программистом-инженером, потому что увлекся программированием, и считаю что уже смогу сделать какой-либо несложный проект. </p>
+                <p class="pabout">Инженером стал, когда мне требовалось что-либо сделать, а помочь или показать как, было некому. Умею, начиная пайки  микросхем и ремонтом автомобилей, заканчивая строительством. Что не умею - научусь! </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <h1 class="title">Проекты</h1>
+        <div class="stack">
+            <div class="stackbox">
+                <h2 class="stackh">стек СУБД, которыми владею</h2>
+                <div class="imgblock">
+                    <img class = "imgstack" src="img/mysql.svg">
+                    <img class = "imgstack" src="img/postgres.svg">
+                    <img class = "imgstack" src="img/sqllite.svg">
+                </div>
+            </div>
+            <div class="stackbox">
+                <h2 class="stackh">стек ЯП, которыми владею</h2>
+                <div class="imgblock">
+                    <img class="imgstack" src="img/cplus.svg">
+                    <img class="imgstack" src="img/java.svg">
+                    <img class="imgstack" src="img/csharp.svg">
+                    <img class="imgstack" src="img/js.svg">
+                </div>
+            </div>
+        </div>
+        <div class="projects">
+            <div class = "projectbox">
+                <p class="projecttext">Приложение учета мебели</p>
+                <img class="projectimg" src="img/mebel%20app.png">
+            </div>
+            <div class="projectbox">
+                <p class="projecttext">Мессенджер</p>
+                <img class="projectimg" src="img/Mask%20Group-3.png">
+            </div>
+            <div class="projectbox">
+                <p class="projecttext">Программа учёта собак</p>
+                <img class="projectimg" src="img/vistavka.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer" class="footer">
+    <div class="bg"></div>
+    <div class="container">
+        <div class="contacts">
+            <a class="pic" href="https://vk.com/alrem"> <img  src="img/vk.svg"></a>
+            <a class="pic" href="https://t.me/npo100CoBnageHue"> <img src="img/telegram.svg"></a>
+            <a class="pic" href="https://www.youtube.com/channel/UCtqdxvVEunkZViu_v8cRh-A"><img src="img/youtube.svg"></a>
+            <a class="pic" href="mailto:npo100.cobnagehue@gmail.com"><img src="img/mail.svg"></a>
+            <a class="pic" href="tel:+79601452396"><img src="img/phone.svg"></a>
+            <a class="pic" href="https://wa.me/79601452396"><img src="img/wa.svg"></a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

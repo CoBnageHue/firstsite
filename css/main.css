@@ -1,0 +1,738 @@
+
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+.header{
+    margin-bottom: 123px;
+}
+
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li :hover{
+    opacity: .50;
+}
+
+.bg{
+    background:#000 repeat-x;
+    width: 100%;
+    height: 142px;
+}
+
+.nav{
+    display: flex;
+    margin-top: -115px;
+    justify-content: center;
+}
+
+.menu
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.navlogo{
+    padding-right: 250px;
+}
+
+.menu li
+{
+    padding-right: 50px;
+    white-space: nowrap;
+}
+
+.menu li:last-child
+{
+    padding-right: 0px;
+    white-space: nowrap;
+}
+
+.header a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: normal;
+    transition: all 0.1s ease-in-out;
+
+}
+
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+    padding: 0;
+}
+
+.headabout{
+    font-size: 30px;
+    padding-bottom: 5.5px;
+}
+
+.title{
+    font-size: 45px;
+    text-align: center;
+}
+
+.header .title{
+    padding-bottom: 5.5px;
+    text-align: left;
+}
+
+.desc{
+    font-size: 24px;
+    padding-bottom: 58px;
+}
+
+.me{
+    margin-top:112px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.metext{
+    padding-left: 24px;
+    padding-top:59px;
+}
+
+.contact-links{
+    background: white;
+    padding:5px 43px;
+    border-radius: 37px;
+    border: 1px solid #000000;
+}
+
+.contact-links:hover{
+    background: black;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.metext a{
+    color: black;
+}
+
+.about{
+    margin-bottom: 123px;
+}
+
+.about .title{
+    margin-bottom: 29px;
+}
+
+.aboutbox{
+    display: flex;
+    text-align: justify;
+    text-indent: 25px;
+    padding-bottom: 54px;
+    font-size: 24px;
+    justify-content: center;
+}
+
+
+#fph{
+    border-radius: 20px;
+    width: 400px;
+    height: 505px;
+}
+
+#sph{
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+#tph{
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+
+.abouttext-l{
+    padding-left: 36px;
+}
+
+.abouttext-r{
+    padding-right: 36px;
+}
+
+.abouttitle{
+    text-indent: 0px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.portfolio{
+    margin-bottom: 123px;
+}
+
+.portfolio .title{
+    margin-bottom: 50px;
+}
+
+.stack{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.stackh{
+    font-size: 30px;
+    padding-bottom: 17px;
+    text-align: center;
+}
+
+.imgblock{
+    border: 1px solid #000000;
+    border-radius: 37px;
+    width: 470px;
+    height: 307px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.projects
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projectbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.projecttext
+{
+    text-align: center;
+    padding-bottom: 17px;
+    font-size: 24px;
+}
+
+.projectimg{
+    width: 367px;
+    height: 234px;
+    transition: all 0.1s ease-in-out;
+}
+
+.projectbox:hover .projectimg{
+    width: 377px;
+    height: 244px;
+}
+
+.projectbox:hover .projecttext{
+    font-weight: 600;
+}
+
+
+.contacts{
+    display: flex;
+    margin-top: -103px;
+    justify-content: space-around;
+    transition: all 0.3s ease-in-out;
+}
+
+.contacts a:hover{
+    opacity: 0.25;
+}
+
+@media screen and (max-width: 1180px){
+    .container{
+        width: 960px;
+    }
+
+    .imgblock{
+        width: 380px;
+        height: 250px;
+    }
+    .projectimg {
+        width: 300px;
+        height: 190px;
+    }
+
+    .pabout{
+        font-size: 20px;
+    }
+
+    .projectbox:hover .projectimg{
+        width: 310px;
+        height: 200px
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    .container{
+        width: 830px;
+    }
+
+    .header a{
+        font-size: 22px;
+    }
+
+    .navlogo{
+        padding-right: 230px;
+    }
+
+    .mephoto{
+        width: 385px;
+    }
+
+    .abouttitle{
+        font-size: 26px;
+    }
+
+    .title {
+        font-size: 38px;
+    }
+
+    .desc{
+        font-size: 20px;
+    }
+
+    .header .title {
+        font-size: 38px;
+    }
+
+    .headabout{
+        font-size: 22px;
+    }
+
+    .stackh{
+        font-size: 24px;
+    }
+
+    .projectimg {
+        width: 250px;
+        height: 190px;
+    }
+
+    .projecttext{
+        font-size: 20px;
+    }
+
+    .projectbox:hover .projectimg{
+        width: 255px;
+        height: 195px;
+    }
+
+    .abouttext-l{
+        padding-left: 20px;
+    }
+
+    .abouttext-r{
+        padding-right: 20px;
+    }
+    .imgblock{
+        width: 300px;
+        height: 200px;
+    }
+
+    .imgstack{
+        width: 64px;
+        height: 64px;
+    }
+
+    .pic img{
+        width: 64px;
+        height: 64px;
+    }
+
+    .pabout
+    {
+        width: 450px;
+    }
+
+    #fph{
+        width: 350px;
+        height: 455px;
+    }
+
+    #sph{
+        width: 350px;
+        height: 350px;
+    }
+
+    #tph{
+        width: 350px;
+        height: 350px;
+    }
+
+    .metext{
+        padding-left: 18px;
+        padding-top:55px;
+    }
+
+}
+
+@media screen and (max-width: 840px) {
+    .container{
+        width: 768px;
+    }
+
+
+    .header a{
+        font-size: 20px;
+    }
+
+    .projectimg {
+        width: 215px;
+        height: 165px;
+    }
+
+    .projectbox:hover .projectimg{
+        width: 220px;
+        height: 170px;
+    }
+
+    .projecttext{
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+
+    .navlogo{
+        padding-right: 180px;
+    }
+
+    .mephoto{
+        width: 300px;
+    }
+
+    .pabout
+    {
+        width: 410px;
+    }
+
+    #fph{
+        width: 310px;
+        height: 415px;
+    }
+
+    #sph{
+        width: 310px;
+        height: 310px;
+    }
+
+    #tph{
+        width: 310px;
+        height: 310px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+        .container {
+            width: 600px;
+        }
+
+        .stack {
+            display: flex;
+            margin-bottom: 60px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .stackh {
+            font-size: 16px;
+        }
+
+        .imgblock {
+            margin-bottom: 40px;
+        }
+
+        .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .projectimg {
+            width: 300px;
+            height: 190px;
+        }
+
+        .projectbox {
+            margin-bottom: 40px;
+        }
+
+        .projectbox:hover .projectimg {
+            width: 310px;
+            height: 200px
+        }
+
+        .aboutbox {
+            display: flex;
+            text-align: justify;
+            text-indent: 25px;
+            padding-bottom: 54px;
+            font-size: 24px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .abouttext-l {
+            padding-left: 0;
+        }
+
+        .abouttext-r {
+            padding-right: 0;
+        }
+
+        #reversebox {
+            flex-direction: column-reverse;
+        }
+
+        #fph {
+            width: 260px;
+            height: 260px;
+
+        }
+
+        #sph {
+            width: 260px;
+            height: 260px;
+
+        }
+
+        #tph {
+            width: 260px;
+            height: 210px;
+
+        }
+
+        .abouttitle {
+            text-align: center;
+            font-size: 24px;
+            padding-top: 25px;
+        }
+
+        .title {
+            font-size: 30px;
+        }
+
+        #about {
+            margin-bottom: 69px;
+        }
+
+        #portfolio {
+            margin-bottom: 69px;
+        }
+        .header a {
+            font-size: 25px;
+        }
+        .menu a {
+            font-size: 15px;
+        }
+
+        .navlogo {
+            padding-right: 60px;
+            width: 56px;
+            height: 66px;
+
+        }
+
+        .nav {
+            margin-top: -100px;
+            width: 70%;
+
+            margin-left: 95px;
+        }
+
+        .contacts {
+            display: flex;
+            margin-top: -930px;
+            justify-content: space-around;
+            transition: all 0.3s ease-in-out;
+            flex-direction: column;
+            align-items: center;
+            width: 600px;
+        }
+
+        footer .bg {
+            height: 1000px;
+        }
+
+        .pic img {
+            width: 100px;
+            height: 100px;
+            padding-bottom: 50px;
+        }
+
+        .me {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        }
+
+        .header .title {
+            text-align: center;
+        }
+
+        .metext {
+            padding-top: 55px;
+            padding-left: 0px;
+            width: 80%;
+        }
+
+    }
+    @media screen and (max-width: 600px) {
+        .container{
+            width: 400px;
+        }
+        .contacts {
+            width: 400px;
+        }
+
+        .navlogo{
+            padding-right: 20px;
+            width: 40px;
+            height: 50px;
+        }
+        .header a{
+            font-size: 25px;
+        }
+        .menu a {
+            font-size: 15px;
+        }
+        .nav{
+            margin-left: 60px;
+        }
+    }
+    @media screen and (max-width: 425px) {
+        .container{
+            width: 325px;
+        }
+        #fph {
+            width: 210px;
+            height: 210px;
+
+        }
+
+        #sph {
+            width: 210px;
+            height: 210px;
+
+        }
+
+        #tph {
+            width: 210px;
+            height: 140px;
+
+        }
+        .pabout{
+            width: 325px;
+        }
+        .contacts{
+            width: 330px;
+        }
+        .menu li {
+            padding-right: 20px;
+        }
+        .nav {
+            margin-left: 50px;
+            margin-top: -75px;
+        }
+        .mephoto{
+            width: 250px;
+            height: 355px;
+        }
+        .abouttitle{
+            font-size: 18px;
+        }
+        .pabout{
+            font-size: 13px;
+        }
+        .bg{
+            height: 100px;
+        }
+        .headabout{
+            font-size: 18px;
+        }
+        .title{
+            font-size: 32px;
+        }
+        .desc{
+            font-size: 13px;
+        }
+        .projectimg{
+            width: 250px;
+            height: 170px;
+        }
+        .projectbox:hover .projectimg{
+            width: 270px;
+            height: 190px
+        }
+        .imgblock{
+            width: 250px;
+            height: 200px;
+        }
+        .imgstack{
+            width: 55px;
+            height: 55px;
+        }
+
+    }
+    @media screen and (max-width: 375px) {
+        .container{
+            width: 300px;
+        }
+        .contacts{
+            width: 310px;
+        }
+        .header a{
+            font-size: 25px;
+        }
+        .menu a {
+            font-size: 12px;
+        }
+        .projectimg{
+            width: 200px;
+            height: 120px;
+        }
+        .imgblock{
+            width: 200px;
+            height: 150px;
+        }
+        .imgstack{
+            width: 44px;
+            height: 44px;
+        }
+        .stackh{
+            font-size: 13px;
+        }
+        .projecttext{
+            font-size: 13px;
+        }
+        .title{
+            font-size: 22px;
+        }
+        .pabout{
+            width: 290px;
+        }
+        .header .title {
+            font-size: 25px;
+        }
+        .projectbox:hover .projectimg{
+            width: 230px;
+            height: 150px
+        }
+
+
+    }
